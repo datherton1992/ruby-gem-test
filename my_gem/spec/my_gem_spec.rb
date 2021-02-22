@@ -5,7 +5,7 @@ RSpec.describe MyGem do
     expect(MyGem::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "says hello world" do
+    expect(MyGem.hello_world).to eq("Hello, world!")
   end
 end

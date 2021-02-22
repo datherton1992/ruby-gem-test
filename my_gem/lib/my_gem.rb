@@ -4,5 +4,8 @@ require_relative "my_gem/version"
 
 module MyGem
   class Error < StandardError; end
-  # Your code goes here...
+
+  def self.hello_world
+    "Hello, world!"
+  end
 end
